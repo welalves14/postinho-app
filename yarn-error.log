@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\welen\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python39\Scripts\;C:\Python39\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;‪C:\Users\welen\OneDrive\Área de Trabalho\wget.exe;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;;C:\ProgramData\UNIVALI\Portugol Studio;C:\Users\welen\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\welen\AppData\Local\Programs\Python\Python36\;C:\Users\welen\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.2.2\bin;;C:\Users\welen\AppData\Roaming\Composer\vendor\bin;C:\Users\welen\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\welen\AppData\Local\GitHubDesktop\bin;C:\Users\welen\AppData\Roaming\npm;C:\src\flutter\bin;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.21.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+
+npm manifest: 
+  {
+    "name": "api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon node src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1",
+      "express-async-handler": "^1.1.4",
+      "pg": "^8.3.3",
+      "sequelize": "^6.3.5",
+      "yup": "^0.29.3"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.4",
+      "sequelize-cli": "^6.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
